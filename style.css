@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+background-image: url("bg.png");
+background-attachment: fixed;
+}
+
+.navigasi {
+background-color: rgb(247, 127, 0);
+box-sizing: border-box;
+position: fixed;
+width: 100%;
+}
+
+.navigasi h1 {
+font-weight: bold;
+color: rgb(234, 226, 183);
+float: left;
+padding: 10px;
+}
+
+.menunavigasi ul {
+list-style-type: none;
+float: right;
+}
+
+.menunavigasi ul li {
+float: left;
+}
+
+.menunavigasi li a {
+display: block;
+text-decoration: none;
+color: rgb(234, 226, 183);
+padding: 10px;
+}
+
+.menunavigasi li a:hover {
+background-color: rgb(252, 191, 73);
+color: rgb(0, 48, 73);
+}
+
+.pembungkus {
+width: 800px;
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+}
+
+.header {
+height: 250px;
+background-image: url("hdr.jpg");
+background-size: cover;
+}
+
+.konten {
+box-sizing: border-box;
+background-color: rgb(241, 250, 238);
+padding: 10px;
+color: rgb(38, 70, 83);
+}
+
+.konten h1.judulartikel {
+font-size: 18px;
+font-weight: bold;
+margin-top: 15px;
+}
+
+.konten p.tanggalposting {
+font-size: 10px;
+color: rgb(231, 111, 81);
+margin-top: 10px;
+}
+
+.isiartikel {
+margin-top: 25px;
+}
+
+.isiartikel p {
+text-align: justify;
+line-height: 20px;
+margin-bottom: 10px;
+}
+
+.isiartikel
+img.gambarisiartikel {
+width: 100px;
+float: left;
+margin-right: 10px;
+margin-bottom: 5px;
+}
+
+.footer {
+padding: 15px;
+background-color: rgb(38, 70, 83);
+color: rgb(234, 226, 183);
+text-align: center;
+}
+
+/*FIRST PAGE*/
+
+.kolomkiri {
+box-sizing: border-box;
+width: 70%;
+padding: 10px;
+color: rgb(38, 70, 83);
+float: left;
+}
+
+.kolomkanan {
+box-sizing: border-box;
+width: 25%;
+float: right;
+}
+
+.artikel {
+margin-bottom: 50px;
+}
+
+.kolomkiri h1.judulartikel {
+font-size: 18px;
+font-weight: bold;
+margin-top: 15px;
+}
+.kolomkiri p.tanggalposting {
+font-size: 10px;
+color: rgb(231, 111, 81);
+margin-top: 10px;
+margin-bottom: 25px
+}
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.tombolselanjutnya{
+background-color: rgb(247, 127, 0);
+padding: 5px;
+border-style: solid;
+border-color: rgb(38, 70, 83);
+border-width: 1.5px;
+}
+
+a.tombolselanjutnya {
+text-decoration: none;
+color: rgb(241, 250, 238);
+}
+
+a:hover.tombolselanjutnya {
+background-color: rgb(38, 70, 83);
+border-style: solid;
+border-color: rgb(247, 127, 0);
+border-width: 1.5px;
+}
+
+
+.kolomkanan .judulsidebar {
+background-color: rgb(38, 70, 83);
+color: rgb(241, 250, 238);
+text-align: center;
+padding: 10px;
+margin-bottom: 13px;
+}
+
+.isisidebar .gambartentang {
+width: 75px;
+margin-top: 5px;
+margin-right: 5px;
+float: left;
+}
+
+.isisidebar p {
+	line-height: 17px;
+}
+
+
+.isisidebar ul {
+line-height: 17px;
+}
+
+.isisidebar ul li {
+margin-bottom: 5px;
+}
+
+.isisidebar ul li a{
+text-decoration: none;
+color: rgb(38, 70, 83);
+}
+
+.isisidebar ul li a:hover{
+color: rgb(247, 127, 0);
+}
+
+.artikelpopuler {
+margin-top: 20px;
+}
